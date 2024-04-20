@@ -14,7 +14,7 @@ IMAGES = {}
 def loadImages():
     pieces = ["wp","wR","wN","wB","wK","wQ","bp","bR","bN","bB","bK","bQ"]
     for piece in pieces:
-        IMAGES[piece] = p.transform.scale(p.image.load("Chess/images/" + piece + ".png"),(SQ_SIZE, SQ_SIZE))
+        IMAGES[piece] = p.transform.scale(p.image.load("ChessAI/images/" + piece + ".png"),(SQ_SIZE, SQ_SIZE))
     #Note: we can access image by saying IMAGES['wp']
 
 
